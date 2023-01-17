@@ -1,0 +1,1199 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Exercise 1 &#8212; Pairwise Alignment Exercises</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Exercise 2" href="ex2.html" />
+    <link rel="prev" title="Pairwise Alignment Exercises" href="intro.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      
+      <h1 class="site-logo" id="site-title">Pairwise Alignment Exercises</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Pairwise Alignment Exercises
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Exercise 1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ex2.html">
+   Exercise 2
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+            <div class="navbar_extra_footer">
+            Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+            </div>
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fex1.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/ex1.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Exercise 1</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="exercise-1">
+<h1>Exercise 1<a class="headerlink" href="#exercise-1" title="Permalink to this headline">#</a></h1>
+<p>In this excercise a dynamic programming matrix should be filled to calculate the optimal pairwise alignment.</p>
+<h4>1. Apply the Needleman-Wunsch algorithm to fill the matrix and compute the optimal score  </h4>
+<p>Fill the matrix and then check your result! Use the following scoring scheme:<br>
+gapCost: -2
+match: 1
+mismatch: -1</p>
+<!DOCTYPE html>
+<html> 
+<head>
+<style>
+
+
+.error {
+  border:2px solid red;
+}
+
+
+.correct {
+  border:2px solid green;
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 55px 55px 55px 55px 55px 55px 55px 55px 55px;
+  grid-gap: 5px;
+  align-items: center;
+
+  
+}
+
+.matrixfield { 
+    text-align: center;
+    width:50px;
+    height:50px;
+}
+
+.matrixlabel {
+  text-align: center;
+  width:50px;
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+</style>
+</head>
+
+<body> 
+ 
+
+ 
+<div class="container1">
+  <label>  </label>
+
+  <label class="matrixlabel">  </label>
+  <label class="matrixlabel"> G  </label>
+  <label class="matrixlabel"> T  </label>
+  <label class="matrixlabel"> C  </label>
+  <label class="matrixlabel"> G  </label>
+  <label class="matrixlabel"> A  </label>
+  <label class="matrixlabel"> C  </label>
+  <label class="matrixlabel"> G  </label>
+  
+
+  <label>  </label>
+  <input class="matrixfield" type="number" id="matrix11"> 
+  <input class="matrixfield" type="number" id="matrix12"> 
+  <input class="matrixfield" type="number" id="matrix13">
+  <input class="matrixfield" type="number" id="matrix14">
+  <input class="matrixfield" type="number" id="matrix15">
+  <input class="matrixfield" type="number" id="matrix16">
+  <input class="matrixfield" type="number" id="matrix17">
+  <input class="matrixfield" type="number" id="matrix18">
+    
+    
+  <label class="matrixlabel"> A  </label>
+  <input class="matrixfield" type="number" id="matrix21">
+  <input class="matrixfield" type="number" id="matrix22">
+  <input class="matrixfield" type="number" id="matrix23">
+  <input class="matrixfield" type="number" id="matrix24">
+  <input class="matrixfield" type="number" id="matrix25">
+  <input class="matrixfield" type="number" id="matrix26">
+  <input class="matrixfield" type="number" id="matrix27">
+  <input class="matrixfield" type="number" id="matrix28">
+  
+  <label class="matrixlabel">  T </label>
+  <input class="matrixfield" type="number" id="matrix31">
+  <input class="matrixfield" type="number" id="matrix32">
+  <input class="matrixfield" type="number" id="matrix33">
+  <input class="matrixfield" type="number" id="matrix34">
+  <input class="matrixfield" type="number" id="matrix35">
+  <input class="matrixfield" type="number" id="matrix36">
+  <input class="matrixfield" type="number" id="matrix37">
+  <input class="matrixfield" type="number" id="matrix38">
+  
+  <label class="matrixlabel">  T </label>
+  <input class="matrixfield" type="number" id="matrix41">
+  <input class="matrixfield" type="number" id="matrix42">
+  <input class="matrixfield" type="number" id="matrix43">
+  <input class="matrixfield" type="number" id="matrix44">
+  <input class="matrixfield" type="number" id="matrix45">
+  <input class="matrixfield" type="number" id="matrix46">
+  <input class="matrixfield" type="number" id="matrix47">
+  <input class="matrixfield" type="number" id="matrix48">
+  
+  <label class="matrixlabel">  A </label>
+  <input class="matrixfield" type="number" id="matrix51">
+  <input class="matrixfield" type="number" id="matrix52">
+  <input class="matrixfield" type="number" id="matrix53">
+  <input class="matrixfield" type="number" id="matrix54">
+  <input class="matrixfield" type="number" id="matrix55">
+  <input class="matrixfield" type="number" id="matrix56">
+  <input class="matrixfield" type="number" id="matrix57">
+  <input class="matrixfield" type="number" id="matrix58">
+  
+  <label class="matrixlabel">  C </label>
+  <input class="matrixfield" type="number" id="matrix61">
+  <input class="matrixfield" type="number" id="matrix62">
+  <input class="matrixfield" type="number" id="matrix63">
+  <input class="matrixfield" type="number" id="matrix64">
+  <input class="matrixfield" type="number" id="matrix65">
+  <input class="matrixfield" type="number" id="matrix66">
+  <input class="matrixfield" type="number" id="matrix67">
+  <input class="matrixfield" type="number" id="matrix68">
+</div>
+
+
+<br>  
+  <button type="button"  onclick="getValueInput()"> 
+      Check my result
+  </button> 
+  
+  <p id="valueInput"></p> 
+
+  <script> 
+
+    const getValueInput = () =>{
+		let inputValue = document.getElementById("matrix11").value; 
+		document.getElementById("matrix11").className = document.getElementById("matrix11").className.replace(" error","");
+		document.getElementById("matrix11").className = document.getElementById("matrix11").className.replace(" correct","");
+				
+		if (inputValue != 0) 
+		{
+			document.getElementById("matrix11").className = document.getElementById("matrix11").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix11").className = document.getElementById("matrix11").className + (" correct");
+		}
+
+		document.getElementById("matrix12").className = document.getElementById("matrix12").className.replace(" error","");
+		document.getElementById("matrix12").className = document.getElementById("matrix12").className.replace(" correct","");
+		let inputValue12 = document.getElementById("matrix12").value; 
+		if (inputValue12 != -2) 
+		{
+			document.getElementById("matrix12").className = document.getElementById("matrix12").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix12").className = document.getElementById("matrix12").className + " correct";
+		}
+
+		document.getElementById("matrix13").className = document.getElementById("matrix13").className.replace(" error", "");
+		document.getElementById("matrix13").className = document.getElementById("matrix13").className.replace(" correct","");
+		let inputValue13 = document.getElementById("matrix13").value; 
+		if (inputValue13 != -4) 
+		{
+			document.getElementById("matrix13").className = document.getElementById("matrix13").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix13").className = document.getElementById("matrix13").className + " correct";
+		}
+
+		document.getElementById("matrix14").className = document.getElementById("matrix14").className.replace(" errpr","");
+		document.getElementById("matrix14").className = document.getElementById("matrix14").className.replace(" correct","");
+		let inputValue14 = document.getElementById("matrix14").value; 
+		if (inputValue14 != -6) 
+		{
+			document.getElementById("matrix14").className = document.getElementById("matrix14").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix14").className = document.getElementById("matrix14").className + " correct";
+		}
+		
+		document.getElementById("matrix15").className = document.getElementById("matrix15").className.replace(" errpr","");
+		document.getElementById("matrix15").className = document.getElementById("matrix15").className.replace(" correct","");
+		let inputValue15 = document.getElementById("matrix15").value; 
+		if (inputValue15 != -8) 
+		{
+			document.getElementById("matrix15").className = document.getElementById("matrix15").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix15").className = document.getElementById("matrix15").className + " correct";
+		}
+
+		document.getElementById("matrix16").className = document.getElementById("matrix16").className.replace(" errpr","");
+		document.getElementById("matrix16").className = document.getElementById("matrix16").className.replace(" correct","");
+		let inputValue16 = document.getElementById("matrix16").value; 
+		if (inputValue16 != -10) 
+		{
+			document.getElementById("matrix16").className = document.getElementById("matrix16").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix16").className = document.getElementById("matrix16").className + " correct";
+		}
+		
+		document.getElementById("matrix17").className = document.getElementById("matrix17").className.replace(" errpr","");
+		document.getElementById("matrix17").className = document.getElementById("matrix17").className.replace(" correct","");
+		let inputValue17 = document.getElementById("matrix17").value; 
+		if (inputValue17 != -12) 
+		{
+			document.getElementById("matrix17").className = document.getElementById("matrix17").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix17").className = document.getElementById("matrix17").className + " correct";
+		}
+		
+		document.getElementById("matrix18").className = document.getElementById("matrix18").className.replace(" errpr","");
+		document.getElementById("matrix18").className = document.getElementById("matrix18").className.replace(" correct","");
+		let inputValue18 = document.getElementById("matrix18").value; 
+		if (inputValue18 != -14) 
+		{
+			document.getElementById("matrix18").className = document.getElementById("matrix18").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix18").className = document.getElementById("matrix18").className + " correct";
+		}
+		
+		// Row 2
+		let inputValue21 = document.getElementById("matrix21").value; 
+		document.getElementById("matrix21").className = document.getElementById("matrix21").className.replace(" error","");
+		document.getElementById("matrix21").className = document.getElementById("matrix21").className.replace(" correct","");
+				
+		if (inputValue21 != -2) 
+		{
+			document.getElementById("matrix21").className = document.getElementById("matrix21").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix21").className = document.getElementById("matrix21").className + (" correct");
+		}
+
+		document.getElementById("matrix22").className = document.getElementById("matrix22").className.replace(" error","");
+		document.getElementById("matrix22").className = document.getElementById("matrix22").className.replace(" correct","");
+		let inputValue22 = document.getElementById("matrix22").value; 
+		if (inputValue22 != -1) 
+		{
+			document.getElementById("matrix22").className = document.getElementById("matrix22").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix22").className = document.getElementById("matrix22").className + " correct";
+		}
+
+		document.getElementById("matrix23").className = document.getElementById("matrix23").className.replace(" error", "");
+		document.getElementById("matrix23").className = document.getElementById("matrix23").className.replace(" correct","");
+		let inputValue23 = document.getElementById("matrix23").value; 
+		if (inputValue23 != -3) 
+		{
+			document.getElementById("matrix23").className = document.getElementById("matrix23").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix23").className = document.getElementById("matrix23").className + " correct";
+		}
+
+		document.getElementById("matrix24").className = document.getElementById("matrix24").className.replace(" errpr","");
+		document.getElementById("matrix24").className = document.getElementById("matrix24").className.replace(" correct","");
+		let inputValue24 = document.getElementById("matrix24").value; 
+		if (inputValue24 != -5) 
+		{
+			document.getElementById("matrix24").className = document.getElementById("matrix24").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix24").className = document.getElementById("matrix24").className + " correct";
+		}
+		
+		document.getElementById("matrix25").className = document.getElementById("matrix25").className.replace(" errpr","");
+		document.getElementById("matrix25").className = document.getElementById("matrix25").className.replace(" correct","");
+		let inputValue25 = document.getElementById("matrix25").value; 
+		if (inputValue25 != -7) 
+		{
+			document.getElementById("matrix25").className = document.getElementById("matrix25").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix25").className = document.getElementById("matrix25").className + " correct";
+		}
+
+		document.getElementById("matrix26").className = document.getElementById("matrix26").className.replace(" errpr","");
+		document.getElementById("matrix26").className = document.getElementById("matrix26").className.replace(" correct","");
+		let inputValue26 = document.getElementById("matrix26").value; 
+		if (inputValue26 != -7) 
+		{
+			document.getElementById("matrix26").className = document.getElementById("matrix26").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix26").className = document.getElementById("matrix26").className + " correct";
+		}
+		
+		document.getElementById("matrix27").className = document.getElementById("matrix27").className.replace(" errpr","");
+		document.getElementById("matrix27").className = document.getElementById("matrix27").className.replace(" correct","");
+		let inputValue27 = document.getElementById("matrix27").value; 
+		if (inputValue27 != -9) 
+		{
+			document.getElementById("matrix27").className = document.getElementById("matrix27").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix27").className = document.getElementById("matrix27").className + " correct";
+		}
+		
+		document.getElementById("matrix28").className = document.getElementById("matrix28").className.replace(" errpr","");
+		document.getElementById("matrix28").className = document.getElementById("matrix28").className.replace(" correct","");
+		let inputValue28 = document.getElementById("matrix28").value; 
+		if (inputValue28 != -11) 
+		{
+			document.getElementById("matrix28").className = document.getElementById("matrix28").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix28").className = document.getElementById("matrix28").className + " correct";
+		}
+		
+		
+		// row 3
+		
+		let inputValue31 = document.getElementById("matrix31").value; 
+		document.getElementById("matrix31").className = document.getElementById("matrix31").className.replace(" error","");
+		document.getElementById("matrix31").className = document.getElementById("matrix31").className.replace(" correct","");
+				
+		if (inputValue31 != -4) 
+		{
+			document.getElementById("matrix31").className = document.getElementById("matrix31").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix31").className = document.getElementById("matrix31").className + (" correct");
+		}
+
+		document.getElementById("matrix32").className = document.getElementById("matrix32").className.replace(" error","");
+		document.getElementById("matrix32").className = document.getElementById("matrix32").className.replace(" correct","");
+		let inputValue32 = document.getElementById("matrix32").value; 
+		if (inputValue32 != -3) 
+		{
+			document.getElementById("matrix32").className = document.getElementById("matrix32").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix32").className = document.getElementById("matrix32").className + " correct";
+		}
+
+		document.getElementById("matrix33").className = document.getElementById("matrix33").className.replace(" error", "");
+		document.getElementById("matrix33").className = document.getElementById("matrix33").className.replace(" correct","");
+		let inputValue33 = document.getElementById("matrix33").value; 
+		if (inputValue33 != 0) 
+		{
+			document.getElementById("matrix33").className = document.getElementById("matrix33").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix33").className = document.getElementById("matrix33").className + " correct";
+		}
+
+		document.getElementById("matrix34").className = document.getElementById("matrix34").className.replace(" errpr","");
+		document.getElementById("matrix34").className = document.getElementById("matrix34").className.replace(" correct","");
+		let inputValue34 = document.getElementById("matrix34").value; 
+		if (inputValue34 != -2) 
+		{
+			document.getElementById("matrix34").className = document.getElementById("matrix34").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix34").className = document.getElementById("matrix34").className + " correct";
+		}
+		
+		document.getElementById("matrix35").className = document.getElementById("matrix35").className.replace(" errpr","");
+		document.getElementById("matrix35").className = document.getElementById("matrix35").className.replace(" correct","");
+		let inputValue35 = document.getElementById("matrix35").value; 
+		if (inputValue35 != -4) 
+		{
+			document.getElementById("matrix35").className = document.getElementById("matrix35").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix35").className = document.getElementById("matrix35").className + " correct";
+		}
+
+		document.getElementById("matrix36").className = document.getElementById("matrix36").className.replace(" errpr","");
+		document.getElementById("matrix36").className = document.getElementById("matrix36").className.replace(" correct","");
+		let inputValue36 = document.getElementById("matrix36").value; 
+		if (inputValue36 != -6) 
+		{
+			document.getElementById("matrix36").className = document.getElementById("matrix36").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix36").className = document.getElementById("matrix36").className + " correct";
+		}
+		
+		document.getElementById("matrix37").className = document.getElementById("matrix37").className.replace(" errpr","");
+		document.getElementById("matrix37").className = document.getElementById("matrix37").className.replace(" correct","");
+		let inputValue37 = document.getElementById("matrix37").value; 
+		if (inputValue37 != -8) 
+		{
+			document.getElementById("matrix37").className = document.getElementById("matrix37").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix37").className = document.getElementById("matrix37").className + " correct";
+		}
+		
+		document.getElementById("matrix38").className = document.getElementById("matrix38").className.replace(" errpr","");
+		document.getElementById("matrix38").className = document.getElementById("matrix38").className.replace(" correct","");
+		let inputValue38 = document.getElementById("matrix38").value; 
+		if (inputValue38 != -10) 
+		{
+			document.getElementById("matrix38").className = document.getElementById("matrix38").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix38").className = document.getElementById("matrix38").className + " correct";
+		}
+		
+		
+		// row 4
+		
+		let inputValue41 = document.getElementById("matrix41").value; 
+		document.getElementById("matrix41").className = document.getElementById("matrix41").className.replace(" error","");
+		document.getElementById("matrix41").className = document.getElementById("matrix41").className.replace(" correct","");
+				
+		if (inputValue41 != -6) 
+		{
+			document.getElementById("matrix41").className = document.getElementById("matrix41").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix41").className = document.getElementById("matrix41").className + (" correct");
+		}
+
+		document.getElementById("matrix42").className = document.getElementById("matrix42").className.replace(" error","");
+		document.getElementById("matrix42").className = document.getElementById("matrix42").className.replace(" correct","");
+		let inputValue42 = document.getElementById("matrix42").value; 
+		if (inputValue42 != -5) 
+		{
+			document.getElementById("matrix42").className = document.getElementById("matrix42").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix42").className = document.getElementById("matrix42").className + " correct";
+		}
+
+		document.getElementById("matrix43").className = document.getElementById("matrix43").className.replace(" error", "");
+		document.getElementById("matrix43").className = document.getElementById("matrix43").className.replace(" correct","");
+		let inputValue43 = document.getElementById("matrix43").value; 
+		if (inputValue43 != -2) 
+		{
+			document.getElementById("matrix43").className = document.getElementById("matrix43").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix43").className = document.getElementById("matrix43").className + " correct";
+		}
+
+		document.getElementById("matrix44").className = document.getElementById("matrix44").className.replace(" errpr","");
+		document.getElementById("matrix44").className = document.getElementById("matrix44").className.replace(" correct","");
+		let inputValue44 = document.getElementById("matrix44").value; 
+		if (inputValue44 != -1) 
+		{
+			document.getElementById("matrix44").className = document.getElementById("matrix44").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix44").className = document.getElementById("matrix44").className + " correct";
+		}
+		
+		document.getElementById("matrix45").className = document.getElementById("matrix45").className.replace(" errpr","");
+		document.getElementById("matrix45").className = document.getElementById("matrix45").className.replace(" correct","");
+		let inputValue45 = document.getElementById("matrix45").value; 
+		if (inputValue45 != -3) 
+		{
+			document.getElementById("matrix45").className = document.getElementById("matrix45").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix45").className = document.getElementById("matrix45").className + " correct";
+		}
+
+		document.getElementById("matrix46").className = document.getElementById("matrix46").className.replace(" errpr","");
+		document.getElementById("matrix46").className = document.getElementById("matrix46").className.replace(" correct","");
+		let inputValue46 = document.getElementById("matrix46").value; 
+		if (inputValue46 != -5) 
+		{
+			document.getElementById("matrix46").className = document.getElementById("matrix46").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix46").className = document.getElementById("matrix46").className + " correct";
+		}
+		
+		document.getElementById("matrix47").className = document.getElementById("matrix47").className.replace(" errpr","");
+		document.getElementById("matrix47").className = document.getElementById("matrix47").className.replace(" correct","");
+		let inputValue47 = document.getElementById("matrix47").value; 
+		if (inputValue47 != -7) 
+		{
+			document.getElementById("matrix47").className = document.getElementById("matrix47").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix47").className = document.getElementById("matrix47").className + " correct";
+		}
+		
+		document.getElementById("matrix48").className = document.getElementById("matrix48").className.replace(" errpr","");
+		document.getElementById("matrix48").className = document.getElementById("matrix48").className.replace(" correct","");
+		let inputValue48 = document.getElementById("matrix48").value; 
+		if (inputValue48 != -9) 
+		{
+			document.getElementById("matrix48").className = document.getElementById("matrix48").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix48").className = document.getElementById("matrix48").className + " correct";
+		}
+		
+		
+		
+		// row 5
+		
+		let inputValue51 = document.getElementById("matrix51").value; 
+		document.getElementById("matrix51").className = document.getElementById("matrix51").className.replace(" error","");
+		document.getElementById("matrix51").className = document.getElementById("matrix51").className.replace(" correct","");
+				
+		if (inputValue51 != -8) 
+		{
+			document.getElementById("matrix51").className = document.getElementById("matrix51").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix51").className = document.getElementById("matrix51").className + (" correct");
+		}
+
+		document.getElementById("matrix52").className = document.getElementById("matrix52").className.replace(" error","");
+		document.getElementById("matrix52").className = document.getElementById("matrix52").className.replace(" correct","");
+		let inputValue52 = document.getElementById("matrix52").value; 
+		if (inputValue52 != -7) 
+		{
+			document.getElementById("matrix52").className = document.getElementById("matrix52").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix52").className = document.getElementById("matrix52").className + " correct";
+		}
+
+		document.getElementById("matrix53").className = document.getElementById("matrix53").className.replace(" error", "");
+		document.getElementById("matrix53").className = document.getElementById("matrix53").className.replace(" correct","");
+		let inputValue53 = document.getElementById("matrix53").value; 
+		if (inputValue53 != -4) 
+		{
+			document.getElementById("matrix53").className = document.getElementById("matrix53").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix53").className = document.getElementById("matrix53").className + " correct";
+		}
+
+		document.getElementById("matrix54").className = document.getElementById("matrix54").className.replace(" errpr","");
+		document.getElementById("matrix54").className = document.getElementById("matrix54").className.replace(" correct","");
+		let inputValue54 = document.getElementById("matrix54").value; 
+		if (inputValue54 != -3) 
+		{
+			document.getElementById("matrix54").className = document.getElementById("matrix54").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix54").className = document.getElementById("matrix54").className + " correct";
+		}
+		
+		document.getElementById("matrix55").className = document.getElementById("matrix55").className.replace(" errpr","");
+		document.getElementById("matrix55").className = document.getElementById("matrix55").className.replace(" correct","");
+		let inputValue55 = document.getElementById("matrix55").value; 
+		if (inputValue55 != -2) 
+		{
+			document.getElementById("matrix55").className = document.getElementById("matrix55").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix55").className = document.getElementById("matrix55").className + " correct";
+		}
+
+		document.getElementById("matrix56").className = document.getElementById("matrix56").className.replace(" errpr","");
+		document.getElementById("matrix56").className = document.getElementById("matrix56").className.replace(" correct","");
+		let inputValue56 = document.getElementById("matrix56").value; 
+		if (inputValue56 != -2) 
+		{
+			document.getElementById("matrix56").className = document.getElementById("matrix56").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix56").className = document.getElementById("matrix56").className + " correct";
+		}
+		
+		document.getElementById("matrix57").className = document.getElementById("matrix57").className.replace(" errpr","");
+		document.getElementById("matrix57").className = document.getElementById("matrix57").className.replace(" correct","");
+		let inputValue57 = document.getElementById("matrix57").value; 
+		if (inputValue57 != -4) 
+		{
+			document.getElementById("matrix57").className = document.getElementById("matrix57").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix57").className = document.getElementById("matrix57").className + " correct";
+		}
+		
+		document.getElementById("matrix58").className = document.getElementById("matrix58").className.replace(" errpr","");
+		document.getElementById("matrix58").className = document.getElementById("matrix58").className.replace(" correct","");
+		let inputValue58 = document.getElementById("matrix58").value; 
+		if (inputValue58 != -6) 
+		{
+			document.getElementById("matrix58").className = document.getElementById("matrix58").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix58").className = document.getElementById("matrix58").className + " correct";
+		}
+		
+		
+		
+		// row 6
+		let inputValue61 = document.getElementById("matrix61").value; 
+		document.getElementById("matrix61").className = document.getElementById("matrix61").className.replace(" error","");
+		document.getElementById("matrix61").className = document.getElementById("matrix61").className.replace(" correct","");
+				
+		if (inputValue61 != -10)
+		{
+			document.getElementById("matrix61").className = document.getElementById("matrix61").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix61").className = document.getElementById("matrix61").className + (" correct");
+		}
+
+		document.getElementById("matrix62").className = document.getElementById("matrix62").className.replace(" error","");
+		document.getElementById("matrix62").className = document.getElementById("matrix62").className.replace(" correct","");
+		let inputValue62 = document.getElementById("matrix62").value; 
+		if (inputValue62 != -9)
+		{
+			document.getElementById("matrix62").className = document.getElementById("matrix62").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix62").className = document.getElementById("matrix62").className + " correct";
+		}
+
+		document.getElementById("matrix63").className = document.getElementById("matrix63").className.replace(" error", "");
+		document.getElementById("matrix63").className = document.getElementById("matrix63").className.replace(" correct","");
+		let inputValue63 = document.getElementById("matrix63").value; 
+		if (inputValue63 != -6)
+		{
+			document.getElementById("matrix63").className = document.getElementById("matrix63").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix63").className = document.getElementById("matrix63").className + " correct";
+		}
+
+		document.getElementById("matrix64").className = document.getElementById("matrix64").className.replace(" errpr","");
+		document.getElementById("matrix64").className = document.getElementById("matrix64").className.replace(" correct","");
+		let inputValue64 = document.getElementById("matrix64").value; 
+		if (inputValue64 != -3)
+		{
+			document.getElementById("matrix64").className = document.getElementById("matrix64").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix64").className = document.getElementById("matrix64").className + " correct";
+		}
+		
+		document.getElementById("matrix65").className = document.getElementById("matrix65").className.replace(" errpr","");
+		document.getElementById("matrix65").className = document.getElementById("matrix65").className.replace(" correct","");
+		let inputValue65 = document.getElementById("matrix65").value; 
+		if (inputValue65 != -4)
+		{
+			document.getElementById("matrix65").className = document.getElementById("matrix65").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix65").className = document.getElementById("matrix65").className + " correct";
+		}
+
+		document.getElementById("matrix66").className = document.getElementById("matrix66").className.replace(" errpr","");
+		document.getElementById("matrix66").className = document.getElementById("matrix66").className.replace(" correct","");
+		let inputValue66 = document.getElementById("matrix66").value; 
+		if (inputValue66 != -3)
+		{
+			document.getElementById("matrix66").className = document.getElementById("matrix66").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix66").className = document.getElementById("matrix66").className + " correct";
+		}
+
+		document.getElementById("matrix67").className = document.getElementById("matrix67").className.replace(" errpr","");
+		document.getElementById("matrix67").className = document.getElementById("matrix67").className.replace(" correct","");
+		let inputValue67 = document.getElementById("matrix67").value; 
+		if (inputValue67 != -1)
+		{
+			document.getElementById("matrix67").className = document.getElementById("matrix67").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix67").className = document.getElementById("matrix67").className + " correct";
+		}
+		
+		document.getElementById("matrix68").className = document.getElementById("matrix68").className.replace(" errpr","");
+		document.getElementById("matrix68").className = document.getElementById("matrix68").className.replace(" correct","");
+		let inputValue68 = document.getElementById("matrix68").value; 
+		if (inputValue68 != -3)
+		{
+			document.getElementById("matrix68").className = document.getElementById("matrix68").className + " error";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("matrix68").className = document.getElementById("matrix68").className + " correct";
+		}
+    }
+    
+  </script> 
+</body> 
+  
+</html> 
+<h4>2. How does the alignment look like? </h4>
+<p>Sequence 1 in the horizontal sequence.</p>
+<!DOCTYPE html>
+<html> 
+<head>
+<style>
+
+
+.error1 {
+  border:2px solid red;
+}
+
+
+.correct1 {
+  border:2px solid green;
+}
+
+
+
+.inputaln{ 
+     text-align: left;
+     font-family: monospace;
+}
+
+
+</style>
+</head>
+
+<body> 
+ 
+
+
+<label> seq1: </label>  <input class="inputaln" type="text" id="aln1"> <br>
+<label> seq2: </label>  <input class="inputaln" type="text" id="aln2"> <br>
+
+
+<br>  
+  <button type="button"  onclick="getValueInput2()"> 
+      Check the alignment
+  </button> 
+  
+  <p id="valueInput"></p> 
+
+  <script> 
+
+    const getValueInput2 = () =>{
+		let inputValueAln1 = document.getElementById("aln1").value; 
+		document.getElementById("aln1").className = document.getElementById("aln1").className.replace(" error1","");
+		document.getElementById("aln1").className = document.getElementById("aln1").className.replace(" correct1","");
+				
+		if (inputValueAln1 != "GTCGACG") 
+		{
+			document.getElementById("aln1").className = document.getElementById("aln1").className + " error1";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("aln1").className = document.getElementById("aln1").className + (" correct1");
+		}
+
+		document.getElementById("aln2").className = document.getElementById("aln2").className.replace(" error1","");
+		document.getElementById("aln2").className = document.getElementById("aln2").className.replace(" correct1","");
+		let inputValueAln2 = document.getElementById("aln2").value; 
+		if ((inputValueAln2 != "AT-TAC-") && (inputValueAln2 != "ATT-AC-"))
+		{
+			document.getElementById("aln2").className = document.getElementById("aln2").className + " error1";  // this adds the error class
+		}
+		else
+		{
+			document.getElementById("aln2").className = document.getElementById("aln2").className + " correct1";
+		}
+}
+  </script> 
+</body> 
+  
+</html> 
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Pairwise Alignment Exercises</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="ex2.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Exercise 2</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By Carsten Kemena<br/>
+  
+      &copy; Copyright 2022.<br/>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
