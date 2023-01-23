@@ -4,8 +4,26 @@ name = gets.chomp
 
 puts "Hello, #{name}!"
 
-puts "what is your motherlanguage?"
+puts "in what language should I greet you?"
 
-motherlanguage = gets.chomp
+language = gets.chomp
 
-puts "Dobar dan, #{name}!"
+case language 
+
+when "english"
+	puts "Hey #{name}!"
+
+when "german"
+	puts "Hallo, #{name}!"
+
+when "spanish"
+	puts "Hola, #{name}!"
+
+when "french"
+	puts "Bonjour, #{name}!"
+	
+when "serbian"
+	puts "Dobar dan, #{name}!"
+else
+	puts "Oh sorry, I don´t speak this language!"
+end
