@@ -4,5 +4,6 @@ number = gets.chomp.to_i
 
 number = *
 
-(1..10).each do | number |
+(1..number).each do | number |
 	puts number 
+end
