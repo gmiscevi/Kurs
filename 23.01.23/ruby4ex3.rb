@@ -4,4 +4,4 @@ sentence = gets.chomp
 
 acronym = sentence.split.map(&:chr).join
 
-puts "The acronym is #{acronym.upcase}"
+puts "The acronym is #{acronym.upcase}" 
