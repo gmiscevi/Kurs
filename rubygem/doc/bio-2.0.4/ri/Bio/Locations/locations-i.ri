@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"locations:ETI"Bio::Locations#locations;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I".(Array) An Array of Bio::Location objects;T:
+@fileI"lib/bio/location.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Locations;TcRDoc::NormalClass0

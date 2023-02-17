@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"aliases:ETI"#Bio::KEGG::Keggtab::DB#aliases;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"8Array containing all alias names for the database. ;TI"8(e.g. ["H.sapiens", "hsa"], ["E.coli", "eco"], ...);T:
+@fileI"lib/bio/db/kegg/keggtab.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::KEGG::Keggtab::DB;TcRDoc::NormalClass0

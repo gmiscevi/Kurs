@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"parsing:ETI"'Bio::PSORT::PSORT2::Remote#parsing;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"(An accessor of the output parsing. ;TI"!Default setting is ``true''.;T:
+@fileI"lib/bio/appl/psort.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::PSORT::PSORT2::Remote;TcRDoc::NormalClass0

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"query_def:ETI"&Bio::Blast::Report::Hit#query_def;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I":Compatible method with Bio::Fasta::Report::Hit class.;T:
+@fileI"!lib/bio/appl/blast/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Blast::Report::Hit;TcRDoc::NormalClass0

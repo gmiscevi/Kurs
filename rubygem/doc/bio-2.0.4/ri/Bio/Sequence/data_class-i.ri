@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"data_class:ETI"Bio::Sequence#data_class;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I")Data Class defined by EMBL (String) ;TI"LSee http://www.ebi.ac.uk/embl/Documentation/User_manual/usrman.html#3_1;T:
+@fileI"lib/bio/sequence.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Sequence;TcRDoc::NormalClass0

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"message:ETI"*Bio::Blast::Report::Iteration#message;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"GReturns a String (or nil) containing execution message (typically ;TI""CONVERGED").;T:
+@fileI"!lib/bio/appl/blast/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I""Bio::Blast::Report::Iteration;TcRDoc::NormalClass0

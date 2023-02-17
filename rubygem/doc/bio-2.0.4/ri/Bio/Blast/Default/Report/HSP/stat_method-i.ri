@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"stat_method:ETI"1Bio::Blast::Default::Report::HSP#stat_method;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[	I"<statistical method for calculating evalue and/or score ;TI"(nil or a string) ;TI"C(note that composition-based statistics for blastp or tblastn ;TI"5were enabled by default after NCBI BLAST 2.2.17);T:
+@fileI""lib/bio/appl/blast/format0.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%Bio::Blast::Default::Report::HSP;TcRDoc::NormalClass0

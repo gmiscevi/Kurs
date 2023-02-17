@@ -1,0 +1,6 @@
+U:RDoc::Attr[iI"skip_leader_mode:ETI"#Bio::FlatFile#skip_leader_mode;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"-The mode how to skip leader of the data.;To:RDoc::Markup::List:
+@type:	NOTE:@items[o:RDoc::Markup::ListItem:@label[I":firsttime ;T;	[o;
+;	[I"7(DEFAULT) only head of file (= first time to read);To;;[I":everytime ;T;	[o;
+;	[I"everytime to read entry;To;;[I"	nil ;T;	[o;
+;	[I"never skip;T:
+@fileI"lib/bio/io/flatfile.rb;T:0@omit_headings_from_table_of_contents_below0F@&I"Bio::FlatFile;TcRDoc::NormalClass0

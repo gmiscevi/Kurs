@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"sequence:ETI"%Bio::SangerChromatogram#sequence;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"<The sequence contained within the chromatogram (String);T:
+@fileI"3lib/bio/db/sanger_chromatogram/chromatogram.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::SangerChromatogram;TcRDoc::NormalClass0

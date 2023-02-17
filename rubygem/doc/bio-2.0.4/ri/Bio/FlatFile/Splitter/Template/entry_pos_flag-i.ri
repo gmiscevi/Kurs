@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"entry_pos_flag:ETI"5Bio::FlatFile::Splitter::Template#entry_pos_flag;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"7a flag to write down entry start and end positions;T:
+@fileI"$lib/bio/io/flatfile/splitter.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&Bio::FlatFile::Splitter::Template;TcRDoc::NormalClass0

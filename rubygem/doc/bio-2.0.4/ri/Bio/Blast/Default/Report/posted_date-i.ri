@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"posted_date:ETI",Bio::Blast::Default::Report#posted_date;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I" posted date of the database;T:
+@fileI""lib/bio/appl/blast/format0.rb;T:0@omit_headings_from_table_of_contents_below0F@I" Bio::Blast::Default::Report;TcRDoc::NormalClass0

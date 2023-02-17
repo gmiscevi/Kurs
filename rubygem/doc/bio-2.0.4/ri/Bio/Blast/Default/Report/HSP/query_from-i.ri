@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"query_from:ETI"0Bio::Blast::Default::Report::HSP#query_from;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I":start position of the query (the first position is 1);T:
+@fileI""lib/bio/appl/blast/format0.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%Bio::Blast::Default::Report::HSP;TcRDoc::NormalClass0

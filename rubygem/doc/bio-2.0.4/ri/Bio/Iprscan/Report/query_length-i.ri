@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"query_length:ETI"&Bio::Iprscan::Report#query_length;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"Qeury sequence length.;T:
+@fileI"#lib/bio/appl/iprscan/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Iprscan::Report;TcRDoc::NormalClass0

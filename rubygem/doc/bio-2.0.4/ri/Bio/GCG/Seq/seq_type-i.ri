@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"seq_type:ETI"Bio::GCG::Seq#seq_type;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"3"Type:" field, which indicates sequence type. ;TI"A"N" means nucleic acid sequence, "P" means protein sequence.;T:
+@fileI"lib/bio/appl/gcg/seq.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::GCG::Seq;TcRDoc::NormalClass0

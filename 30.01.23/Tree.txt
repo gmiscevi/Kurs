@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nex:nexml  id="test" version="0.9" xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<otus id="taxonlist">
+		<otu id="taxon1" label="species1" />
+		<otu id="taxon2" label="species2" />
+		<otu id="taxon3" label="species3" />		
+	</otus>
+	<trees id="treegroup" label="trees" otus="taxonlist">
+		<tree id="tree" xsi:type="nex:FloatTree">
+			<node id="node1" otu="taxon1"/>
+			<node id="node2" otu="taxon2"/>
+			<node id="node3" otu="taxon3"/>
+			<node id="node4"/>
+			<node id="node5"/>
+			<rootedge id="rootedge" target="node4" length="0.778"/>
+			<edge id="edge1" source="node4" target="node5" length="1"/>
+			<edge id="edge2" source="node4" target="node3"/>
+			<edge id="edge3" source="node5" target="node1" length="0.98"/>
+			<edge id="edge4" source="node5" target="node2"/>
+		</tree>
+	</trees>
+</nex:nexml>

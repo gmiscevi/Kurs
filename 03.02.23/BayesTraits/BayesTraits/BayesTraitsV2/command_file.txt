@@ -1,0 +1,23 @@
+1
+2
+Sample 500 
+Iterations 500000 
+BurnIn 5000 
+PriorAll uniform 0 100 
+Res qDG qGD
+AddNode internalNode1 Camel Pig Hippopo Whale Porpoise Dolphin FKWhale Chevrotain RoeDeer HogDeer Giraffe Sheep Goat Pronghorn Cow Buffalo
+AddNode internalNode2 Camel Pig
+AddNode internalNode3 Hippopo Whale Porpoise Dolphin FKWhale Chevrotain RoeDeer HogDeer Giraffe Sheep Goat Pronghorn Cow Buffalo
+AddNode internalNode4 Hippopo Whale Porpoise Dolphin FKWhale
+AddNode internalNode5 Whale Porpoise Dolphin FKWhale
+AddNode internalNode6 Porpoise Dolphin FKWhale
+AddNode internalNode7 Dolphin FKWhale
+AddNode internalNode8 Chevrotain RoeDeer HogDeer Giraffe Sheep Goat Pronghorn Cow Buffalo
+AddNode internalNode9 RoeDeer HogDeer Giraffe Sheep Goat Pronghorn Cow Buffalo
+AddNode internalNode10 RoeDeer HogDeer
+AddNode internalNode11 Giraffe Sheep Goat Pronghorn Cow Buffalo
+AddNode internalNode12 Sheep Goat Pronghorn Cow Buffalo
+AddNode internalNode13 Sheep Goat
+AddNode internalNode14 Pronghorn Cow Buffalo
+AddNode internalNode15 Cow Buffalo
+run

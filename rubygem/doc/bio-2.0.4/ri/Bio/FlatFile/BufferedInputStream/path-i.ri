@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	path:ETI",Bio::FlatFile::BufferedInputStream#path;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"3Pathname, filename or URI to open the object. ;TI"5Like File#path, returned value isn't normalized.;T:
+@fileI""lib/bio/io/flatfile/buffer.rb;T:0@omit_headings_from_table_of_contents_below0F@I"'Bio::FlatFile::BufferedInputStream;TcRDoc::NormalClass0

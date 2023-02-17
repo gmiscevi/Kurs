@@ -1,0 +1,4 @@
+U:RDoc::Attr[iI"bottom_strand_sequences:ETI"+Bio::Lasergene#bottom_strand_sequences;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"&Number of bottom strand sequences;To:RDoc::Markup::List:
+@type:BULLET:@items[o:RDoc::Markup::ListItem:@label0;	[o;
+;	[I"*Parsed from standard Lasergene header;T:
+@fileI"lib/bio/db/lasergene.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Lasergene;TcRDoc::NormalClass0

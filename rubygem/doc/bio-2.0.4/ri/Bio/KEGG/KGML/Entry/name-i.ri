@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	name:ETI" Bio::KEGG::KGML::Entry#name;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"7KEGG-style ID string of this entry (String or nil);T:
+@fileI"lib/bio/db/kegg/kgml.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::KEGG::KGML::Entry;TcRDoc::NormalClass0

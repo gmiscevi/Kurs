@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"%cut_locations_in_enzyme_notation:ETI"LBio::RestrictionEnzyme::DoubleStranded#cut_locations_in_enzyme_notation;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"`Cut locations in enzyme index notation, DoubleStranded::CutLocationsInEnzymeNotation object;T:
+@fileI"7lib/bio/util/restriction_enzyme/double_stranded.rb;T:0@omit_headings_from_table_of_contents_below0F@I"+Bio::RestrictionEnzyme::DoubleStranded;TcRDoc::NormalClass0

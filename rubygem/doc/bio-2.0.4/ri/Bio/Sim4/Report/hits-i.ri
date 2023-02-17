@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	hits:ETI"Bio::Sim4::Report#hits;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[	I" Returns hits of the entry. ;TI"3Unlike Bio::Sim4::Report#all_hits, it returns ;TI"!hits which have alignments. ;TI"8Returns an Array of Bio::Sim4::Report::Hit objects.;T:
+@fileI" lib/bio/appl/sim4/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Sim4::Report;TcRDoc::NormalClass0

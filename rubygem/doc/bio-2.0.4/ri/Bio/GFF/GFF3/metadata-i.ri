@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"metadata:ETI"Bio::GFF::GFF3#metadata;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"DMetadata (except "##sequence-region", "##gff-version", "###"). ;TI":Must be an array of Bio::GFF::GFF3::MetaData objects.;T:
+@fileI"lib/bio/db/gff.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::GFF::GFF3;TcRDoc::NormalClass0

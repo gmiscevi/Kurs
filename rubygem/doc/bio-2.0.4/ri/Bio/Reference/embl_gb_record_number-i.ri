@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"embl_gb_record_number:ETI")Bio::Reference#embl_gb_record_number;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I",Sequence number in EMBL/GenBank records;T:
+@fileI"lib/bio/reference.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Reference;TcRDoc::NormalClass0

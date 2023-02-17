@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"parameters:ETI""Bio::Blast::Report#parameters;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"FReturns a Hash containing execution parameters.  Valid keys are: ;TI"?'matrix', 'expect', 'include', 'sc-match', 'sc-mismatch', ;TI"''gap-open', 'gap-extend', 'filter';T:
+@fileI"!lib/bio/appl/blast/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Blast::Report;TcRDoc::NormalClass0

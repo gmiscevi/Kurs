@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	hsps:ETI"*Bio::Blast::Default::Report::Hit#hsps;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"1Hsp(high-scoring segment pair)s of the hit. ;TI"BReturns an array of Bio::Blast::Default::Report::HSP objects.;T:
+@fileI""lib/bio/appl/blast/format0.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%Bio::Blast::Default::Report::Hit;TcRDoc::NormalClass0

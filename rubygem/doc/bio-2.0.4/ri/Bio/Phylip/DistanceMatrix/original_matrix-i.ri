@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"original_matrix:ETI"0Bio::Phylip::DistanceMatrix#original_matrix;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"1matrix contains values as original strings. ;TI"?Use it when you doubt precision of floating-point numbers.;T:
+@fileI"+lib/bio/appl/phylip/distance_matrix.rb;T:0@omit_headings_from_table_of_contents_below0F@I" Bio::Phylip::DistanceMatrix;TcRDoc::NormalClass0

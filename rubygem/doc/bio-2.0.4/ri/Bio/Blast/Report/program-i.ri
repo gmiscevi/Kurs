@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"program:ETI"Bio::Blast::Report#program;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"*program name (e.g. "blastp") (String);T:
+@fileI"!lib/bio/appl/blast/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Blast::Report;TcRDoc::NormalClass0

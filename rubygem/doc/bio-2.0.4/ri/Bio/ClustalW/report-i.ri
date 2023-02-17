@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"report:ETI"Bio::ClustalW#report;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"$Returns last alignment result. ;TI",Returns a Bio::ClustalW::Report object.;T:
+@fileI"lib/bio/appl/clustalw.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::ClustalW;TcRDoc::NormalClass0

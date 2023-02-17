@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"components:ETI"&Bio::KEGG::KGML::Entry#components;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"/component elements included in this entry ;TI"/(Array containing Integer objects, or nil);T:
+@fileI"lib/bio/db/kegg/kgml.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::KEGG::KGML::Entry;TcRDoc::NormalClass0

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"midline:ETI"+Bio::Sim4::Report::SegmentPair#midline;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"0Returns the "midline" of the segment pair. ;TI"4Returns nil if no alignment data are available.;T:
+@fileI" lib/bio/appl/sim4/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"#Bio::Sim4::Report::SegmentPair;TcRDoc::NormalClass0

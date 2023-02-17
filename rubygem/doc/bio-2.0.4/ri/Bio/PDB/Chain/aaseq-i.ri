@@ -1,0 +1,5 @@
+U:RDoc::AnyMethod[iI"
+aaseq:ETI"Bio::PDB::Chain#aaseq;TF:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@gets an amino acid sequence of this chain from ATOM records;T:
+@fileI"lib/bio/db/pdb/chain.rb;T:0@omit_headings_from_table_of_contents_below000[[I"atom_seq;To;;	[o;
+;	[I"for backward compatibility;T;@;0I"();T@FI"
+Chain;TcRDoc::NormalClass00

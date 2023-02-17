@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"fastacmd:ETI""Bio::Blast::Fastacmd#fastacmd;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I" fastacmd command file path.;T:
+@fileI"lib/bio/io/fastacmd.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Blast::Fastacmd;TcRDoc::NormalClass0

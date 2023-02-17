@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"entry_id:ETI"Bio::FastaDefline#entry_id;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I")Shows a possibly unique identifier. ;TI"Returns a string.;T:
+@fileI" lib/bio/db/fasta/defline.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::FastaDefline;TcRDoc::NormalClass0

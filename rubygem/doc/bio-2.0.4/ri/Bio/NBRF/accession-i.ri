@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"accession:ETI"Bio::NBRF#accession;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"'Returns ID described in the entry.;T:
+@fileI"lib/bio/db/nbrf.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::NBRF;TcRDoc::NormalClass0

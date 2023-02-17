@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"prediction:ETI""Bio::SOSUI::Report#prediction;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"BReturns the prediction result whether "MEMBRANE PROTEIN" or  ;TI""SOLUBLE PROTEIN".;T:
+@fileI"!lib/bio/appl/sosui/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::SOSUI::Report;TcRDoc::NormalClass0

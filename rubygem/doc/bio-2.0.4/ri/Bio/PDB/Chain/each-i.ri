@@ -1,0 +1,4 @@
+U:RDoc::AnyMethod[iI"	each:ETI"Bio::PDB::Chain#each;TF:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"Iterates over each residue;T:
+@fileI"lib/bio/db/pdb/chain.rb;T:0@omit_headings_from_table_of_contents_below00I"residue;T[[I"each_residue;To;;	[o;
+;	[I"1Alias to override ResidueFinder#each_residue;T;@;0I"();T@FI"
+Chain;TcRDoc::NormalClass00

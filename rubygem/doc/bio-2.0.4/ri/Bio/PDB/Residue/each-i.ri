@@ -1,0 +1,3 @@
+U:RDoc::AnyMethod[iI"	each:ETI"Bio::PDB::Residue#each;TF:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"Iterator over the atoms;T:
+@fileI"lib/bio/db/pdb/residue.rb;T:0@omit_headings_from_table_of_contents_below00I"	atom;T[[I"each_atom;To;;	[o;
+;	[I"+Alias to override AtomFinder#each_atom;T;@;0I"();T@FI"Residue;TcRDoc::NormalClass00

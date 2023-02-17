@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"entry_id:ETI""Bio::Iprscan::Report#entry_id;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"$Qeury sequence name (entry_id).;T:
+@fileI"#lib/bio/appl/iprscan/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Iprscan::Report;TcRDoc::NormalClass0

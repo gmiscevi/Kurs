@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"entry_id:ETI"Bio::Sequence#entry_id;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"DThe sequence identifier (String).  For example, for a sequence ;TI"0of Genbank origin, this is the locus name. ;TI"IFor a sequence of EMBL origin, this is the primary accession number.;T:
+@fileI"lib/bio/sequence.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Sequence;TcRDoc::NormalClass0

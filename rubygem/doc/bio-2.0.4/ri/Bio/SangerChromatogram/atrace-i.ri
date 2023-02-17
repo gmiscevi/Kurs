@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"atrace:ETI"#Bio::SangerChromatogram#atrace;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"_An array of 'y' positions (see description) for the 'A' trace from the chromatogram (Array;T:
+@fileI"3lib/bio/db/sanger_chromatogram/chromatogram.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::SangerChromatogram;TcRDoc::NormalClass0

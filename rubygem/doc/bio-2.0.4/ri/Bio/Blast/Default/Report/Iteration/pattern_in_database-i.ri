@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"pattern_in_database:ETI"?Bio::Blast::Default::Report::Iteration#pattern_in_database;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"B(PHI-BLAST) Number of occurrences of pattern in the database.;T:
+@fileI""lib/bio/appl/blast/format0.rb;T:0@omit_headings_from_table_of_contents_below0F@I"+Bio::Blast::Default::Report::Iteration;TcRDoc::NormalClass0

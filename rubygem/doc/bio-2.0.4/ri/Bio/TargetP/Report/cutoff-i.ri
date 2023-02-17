@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"cutoff:ETI" Bio::TargetP::Report#cutoff;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"%Returns a Hash of cutoff values.;T:
+@fileI"#lib/bio/appl/targetp/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::TargetP::Report;TcRDoc::NormalClass0

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"bgcolor:ETI"&Bio::KEGG::KGML::Graphics#bgcolor;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"%background color (String or nil);T:
+@fileI"lib/bio/db/kegg/kgml.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::KEGG::KGML::Graphics;TcRDoc::NormalClass0

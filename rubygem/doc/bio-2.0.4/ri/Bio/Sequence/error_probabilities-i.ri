@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"error_probabilities:ETI"&Bio::Sequence#error_probabilities;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"@Error probabilities of the bases/residues in the sequence. ;TI"%(Array containing Float, or nil);T:
+@fileI"lib/bio/sequence.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Sequence;TcRDoc::NormalClass0

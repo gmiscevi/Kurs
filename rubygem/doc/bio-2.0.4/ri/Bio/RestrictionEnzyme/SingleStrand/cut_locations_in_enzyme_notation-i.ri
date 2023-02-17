@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"%cut_locations_in_enzyme_notation:ETI"JBio::RestrictionEnzyme::SingleStrand#cut_locations_in_enzyme_notation;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"7The cut locations in enzyme notation. Contains a  ;TI"CCutLocationsInEnzymeNotation object set when the SingleStrand ;TI"object is initialized.;T:
+@fileI"5lib/bio/util/restriction_enzyme/single_strand.rb;T:0@omit_headings_from_table_of_contents_below0F@I")Bio::RestrictionEnzyme::SingleStrand;TcRDoc::NormalClass0

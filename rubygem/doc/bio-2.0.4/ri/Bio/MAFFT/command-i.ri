@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"command:ETI"Bio::MAFFT#command;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"HShows last command-line string. Returns nil or an array of String. ;TI"CNote that filenames described in the command-line may already ;TI"1be removed because they are temporary files.;T:
+@fileI"lib/bio/appl/mafft.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::MAFFT;TcRDoc::NormalClass0

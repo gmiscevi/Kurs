@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"cut_locations:ETI"7Bio::RestrictionEnzyme::SingleStrand#cut_locations;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"JThe cut locations transformed from enzyme index notation to 0-based  ;TI".array index notation.  Contains an Array.;T:
+@fileI"5lib/bio/util/restriction_enzyme/single_strand.rb;T:0@omit_headings_from_table_of_contents_below0F@I")Bio::RestrictionEnzyme::SingleStrand;TcRDoc::NormalClass0

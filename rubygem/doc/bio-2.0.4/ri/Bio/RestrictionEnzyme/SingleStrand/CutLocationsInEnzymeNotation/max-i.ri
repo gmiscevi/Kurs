@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"max:ETI"KBio::RestrictionEnzyme::SingleStrand::CutLocationsInEnzymeNotation#max;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"'Last cut, in enzyme-index notation;T:
+@fileI"Vlib/bio/util/restriction_enzyme/single_strand/cut_locations_in_enzyme_notation.rb;T:0@omit_headings_from_table_of_contents_below0F@I"GBio::RestrictionEnzyme::SingleStrand::CutLocationsInEnzymeNotation;TcRDoc::NormalClass0

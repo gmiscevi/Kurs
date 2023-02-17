@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"header:ETI"Bio::Fastq#header;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"0misc lines before the entry (String or nil);T:
+@fileI"lib/bio/db/fastq.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::Fastq;TcRDoc::NormalClass0

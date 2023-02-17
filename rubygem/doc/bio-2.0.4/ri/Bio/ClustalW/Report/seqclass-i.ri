@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"seqclass:ETI"#Bio::ClustalW::Report#seqclass;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I">sequence class (one of Bio::Sequence, Bio::Sequence::NA, ;TI"Bio::Sequence::AA, ...);T:
+@fileI"$lib/bio/appl/clustalw/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::ClustalW::Report;TcRDoc::NormalClass0

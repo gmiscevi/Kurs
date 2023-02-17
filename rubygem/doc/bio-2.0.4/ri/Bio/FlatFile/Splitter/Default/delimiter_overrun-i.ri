@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"delimiter_overrun:ETI"7Bio::FlatFile::Splitter::Default#delimiter_overrun;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I";(Integer) excess read data size included in delimiter.;T:
+@fileI"$lib/bio/io/flatfile/splitter.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%Bio::FlatFile::Splitter::Default;TcRDoc::NormalClass0

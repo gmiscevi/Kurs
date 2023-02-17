@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"	mrna:ETI"*Bio::Spidey::Report::SegmentPair#mrna;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"1Returns segment informations of the 'mRNA'. ;TI"4Returns a Bio::Spidey::Report::Segment object. ;TI"1This would be a Bio::Spidey specific method.;T:
+@fileI""lib/bio/appl/spidey/report.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%Bio::Spidey::Report::SegmentPair;TcRDoc::NormalClass0

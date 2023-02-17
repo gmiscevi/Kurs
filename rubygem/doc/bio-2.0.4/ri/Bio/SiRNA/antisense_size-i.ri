@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"antisense_size:ETI"Bio::SiRNA#antisense_size;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"&A parameter of size of antisense.;T:
+@fileI"lib/bio/util/sirna.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::SiRNA;TcRDoc::NormalClass0

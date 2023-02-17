@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"abbrev:ETI""Bio::KEGG::Keggtab::DB#abbrev;TI"R;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"AShort name for the database. (e.g. 'ec', 'hsa', 'eco', ...) ;TI"2korg and keggorg are alias for abbrev method.;T:
+@fileI"lib/bio/db/kegg/keggtab.rb;T:0@omit_headings_from_table_of_contents_below0F@I"Bio::KEGG::Keggtab::DB;TcRDoc::NormalClass0
